@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -4712,4 +4706,29 @@ input, select, textarea {
 	z-index: 1;		
 }
 
+/* Curriculum */
+.curriculum {
+	line-height: 2rem;	
+}
+
+.curriculum ul, .curriculum li {
+	list-style-type: disc;
+}
+
+.curriculum h2 {
+	margin-top: 5rem;
+}
+
+.curriculum > .personal {
+	line-height: .5rem;	
+}
+
+.companies > h4 {
+	margin-top: 4rem;
+	margin-bottom: 0;
+}
+
+.companies > p {
+	margin-bottom: .5rem;
+}
 
